@@ -14,7 +14,7 @@ public class HashMaps{
             //System.out.println(map.containsKey(1));
 
           if(map.containsValue(i)==false){
-               map.put(9, i.);
+               map.put(9, i);
           }
           else{
             map.remove(2);
