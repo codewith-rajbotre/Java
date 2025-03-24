@@ -13,8 +13,15 @@ public class Star{
                       System.out.print(j);
                
             }
-            System.out.println("");
+            System.out.println(" ");
         }
+// 1
+// 121
+// 12321
+// 1234321
+      for(int i=1 ; i<=4 ; i++){
+         
+      }
 
     }
 }
