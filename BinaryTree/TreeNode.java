@@ -1,10 +1,20 @@
-public class TreeNode{
-    public void TreeNode(){
-        int val ;
-        TreeNode left;
-        TreeNode right;
+
+public class TreeNode {
+
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode() {
     }
-    public static void main(String[] args) {
-        System.out.println("TreeNode");
+
+    TreeNode(int val) {
+        this.val = val;
+    }
+
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
     }
 }
