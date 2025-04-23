@@ -1,10 +1,12 @@
-import java.util.*;
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
 public class RFromString{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the string : ");
 
-        Strings s = sc.next();
+        String s = sc.next();
 
         Set<Character>a = new HashSet<>();//To add only one time
         StringBuilder sa = new StringBuilder();
