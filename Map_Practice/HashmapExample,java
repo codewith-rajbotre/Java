@@ -1,0 +1,23 @@
+import java.util.HashMap;
+
+public class HashmapExample {
+    public static void main(String[] args) {
+        HashMap<String, String> hashMap = new HashMap<>();
+
+        // Insert key-value pairs
+        hashMap.put("name", "Alice");
+        hashMap.put("city", "New York");
+
+        // Retrieve a value
+        System.out.println(hashMap.get("name")); // Output: Alice
+
+        // Update a value
+        hashMap.put("city", "Los Angeles");
+
+        // Remove a key
+        hashMap.remove("name");
+
+        // Print the hash table
+        System.out.println(hashMap);
+    }
+}
