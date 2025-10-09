@@ -25,5 +25,6 @@ public class Example{
         System.out.println("ls1: "+ls1);
         List<String> lsUpperCase =  ls.stream().map(String::toUpperCase).toList();
         System.out.println(ls);
+        System.out.println(lsUpperCase);
     }
 }
